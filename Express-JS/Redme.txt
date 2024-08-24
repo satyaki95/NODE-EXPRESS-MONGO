@@ -1,0 +1,26 @@
+//For Node Install
+npm i express
+const express = require('express');
+const app = express();
+const port = 3000;
+
+
+//For Nodemon Install
+npm i Nodemon
+
+package.json --> 
+scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  }
+
+//For Body-Perser Install
+npm i body-parser
+
+app.use(bodyPaarser.urlencoded({ extended: false }));
+app.use(bodyPaarser.json());
+
+//For Dotenv Install
+npm i dotenv
+
+require('dotenv').config();

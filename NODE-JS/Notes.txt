@@ -1,0 +1,17 @@
+[npm init -y]  for External Module
+
+[npm i nodemon] for install nodemon
+
+[ctrl C] for stop server
+
+[npm start] start the server
+
+[npm i random-fruits-name] for packege install  https://www.npmjs.com/
+
+
+// Package.json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    <--"start": "nodemon index.js"-->  auto Update 
+  },
+
