@@ -4,10 +4,14 @@ mongosh --> Connect Database
 show dbs --> show  databases
 show tables --> show  tables
 use database_name  --> use  studentsDB
+use  database_name --> Switch Database
+db -->  Show  Database Name
+
 db.createCollection("collection_name) -->  db.createCollection("students")
 db.collection_name.insertOne({"key":"value"}) --> db.students.insertOne({"name":"John"})
 show collections -->  show collections
 db.dropDatabase() --> Drop Database
+
 \end{code}
 
 
@@ -15,7 +19,12 @@ db.dropDatabase() --> Drop Database
 <----------------------   CRUD Operation ---------------------->
 \
 insertOne() --> Insert One Document
+example --> db.users.insertOne({name: "Satyaki", age: 30, languages: ["bangla","English","Hindi"]})
 insertMany() --> Insert Multiple Documents
+db.collection_name.find() -->  Show Insert Data
+db.collection_name.find().pretty() --> Show Insert Data Object Way
+db.collection_name.find({key: value}) --> Find Spasic Data
+db.collection_name.find({key: value}).limit() --> Limit For Showing Data
 updateOne() --> Update One Document
 updateMany() --> Update Multiple Documents
 updateMany() --> Update Multiple Documents
