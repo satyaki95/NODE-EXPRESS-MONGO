@@ -1,0 +1,28 @@
+<----------------------   Introduction MongoDB ---------------------->
+/
+mongosh --> Connect Database
+show dbs --> show  databases
+show tables --> show  tables
+use database_name  --> use  studentsDB
+db.createCollection("collection_name) -->  db.createCollection("students")
+db.collection_name.insertOne({"key":"value"}) --> db.students.insertOne({"name":"John"})
+show collections -->  show collections
+db.dropDatabase() --> Drop Database
+\end{code}
+
+
+
+<----------------------   CRUD Operation ---------------------->
+\
+insertOne() --> Insert One Document
+insertMany() --> Insert Multiple Documents
+updateOne() --> Update One Document
+updateMany() --> Update Multiple Documents
+updateMany() --> Update Multiple Documents
+deleteOne() --> Delete One Document
+deleteMany() --> Delete Multiple Documents
+\end{code}
+
+
+
+
