@@ -21,10 +21,10 @@ db.dropDatabase() --> Drop Database
 insertOne() --> Insert One Document
 example --> db.users.insertOne({name: "Satyaki", age: 30, languages: ["bangla","English","Hindi"]})
 insertMany() --> Insert Multiple Documents
-db.collection_name.find() -->  Show Insert Data
-db.collection_name.find().pretty() --> Show Insert Data Object Way
-db.collection_name.find({key: value}) --> Find Spasic Data
-db.collection_name.find({key: value}).limit() --> Limit For Showing Data
+db.collection_name.find() -->  Show/Read Insert Data
+db.collection_name.find().pretty() --> Show/Read Insert Data Object Way
+db.collection_name.find({key: value}) --> Find/Read Spasic Data
+db.collection_name.find({key: value}).limit() --> Limit For Showing Data/Read
 updateOne() --> Update One Document
 updateMany() --> Update Multiple Documents
 updateMany() --> Update Multiple Documents
